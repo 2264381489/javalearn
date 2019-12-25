@@ -63,13 +63,17 @@ public class helloworld {
 //        }
 //        System.out.println(d);
 //        add(a,b);
-        run a1=new run();
-        a1.hun(a);
-        a1.qual(1,2);
-        a1.qual(1.2,2.2);
-        a1.qual(1.2f,3.4f);
+//        run a1=new run();
+//        a1.hun(a);
+//        a1.qual(1,2);
+//        a1.qual(1.2,2.2);
+//        a1.qual(1.2f,3.4f);
 
-
+//        shuzu s1=new shuzu();
+//        s1.xunhuan();
+//
+        gongsi g=new gongsi();
+        g.jisuan();
     }
 
     private static void add( int a, int b) {
