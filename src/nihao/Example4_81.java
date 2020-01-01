@@ -10,7 +10,7 @@ public class Example4_81 {
        c.radius=5;
        mid=c.area();
        System.out.println(mid);
-       circular.setBottom(c);//接收底部面积h'
+       circular.setBottom(c);//接收底部面积h'huhuhu
        circular.setHeight(5);//设置高度
        System.out.println(circular.get_volme());
 
