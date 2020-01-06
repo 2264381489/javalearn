@@ -12,6 +12,6 @@ public class text {
         t.setHeight(12,12,12);
         System.out.println(s.getarea(t));
 
-
+dshidsi
     }
 }
