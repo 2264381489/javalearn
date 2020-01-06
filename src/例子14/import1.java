@@ -9,5 +9,4 @@ public class import1 {
 
         System.out.println(s.getarea(c));
     }
-dsds
 }
