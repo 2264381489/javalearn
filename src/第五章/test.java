@@ -7,7 +7,7 @@ public class test {
               pillar pillarCircle= new pillar(circlebottom,2.00); //这个是圆底的柱体
         System.out.println(pillarCircle.getVolumn());
         //这里是底边为长方形的柱体
-        geometry rectangle=new rectangle(2,4);
+        geometry rectangle=new rectangle(2,4);fsfs
         pillar pillarReactangle=new pillar(rectangle,2);
         System.out.println(pillarReactangle.getVolumn());
 
