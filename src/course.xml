@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE scores [
+        <!ELEMENT  scores (student) >
+        <!ELEMENT student (name)>
+        <!--这里要注意的事情就是，在idea的判定标准中，如果在上面的element中写出来子元素，在下面必须出现子元素的声明，对子元素进行解释-->
+       <!ELEMENT name (to?,from+,head*,(hello|message))>
+        <!ELEMENT to (#PCDATA)>
+        <!ELEMENT from (#PCDATA)>
+        <!ELEMENT head (#PCDATA)>
+        <!ELEMENT hello (#PCDATA)>
+        <!ELEMENT message (#PCDATA)>
+
+
+        ]>
+
+<scores>
+    <student>
+        <!--在xml中必须按照DTD中的顺序书写其中的xml文档-->
+    <name>
+
+        <from></from>
+        <head></head>
+        <head></head>      <head></head>
+        <message>
+
+        </message>
+    </name>
+    </student>
+</scores>
