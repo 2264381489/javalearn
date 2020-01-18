@@ -10,7 +10,7 @@ public class dom4j {
     public static void main(String arg[]) throws Exception{
       SAXReader reader =new SAXReader();
 //      创建saxreader对象，并用于读取xml文件
-      Document doc =reader.read(new File("src/course.xml"));
+      Document doc =reader.read(new File("src/note.xml"));
 //      读取完了xml文件，得到了document对象
 //      如果不加入异常抛出的话，这个read会报错
 //      System.out.println(doc);

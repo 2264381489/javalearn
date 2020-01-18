@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE note [
+        <!ELEMENT note (student*)>
+        <!ELEMENT student (id,name,score,grade)>
+        <!--??????????????????????????-->
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT score (#PCDATA)>
+        <!ELEMENT grade (#PCDATA)>
+<!--?????????-->
+        ]>
+
+
+
+
+<note>
+    <student>
+        <id>12</id>
+        <name>???</name>
+        <score>3A</score>
+        <grade>team x</grade>
+    </student>
+    <student>
+        <id>12</id>
+        <name>???</name>
+        <score>3B</score>
+        <grade>team x</grade>
+    </student>
+    <student>
+        <id>12</id>
+        <name>??</name>
+        <score>3C</score>
+        <grade>team x</grade>
+    </student>
+
+</note>
