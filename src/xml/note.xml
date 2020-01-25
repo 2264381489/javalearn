@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE note [
-        <!ELEMENT note (student*)>
-        <!ELEMENT student (id,name,score,grade)>
-        <!--??????????????????????????-->
-        <!ELEMENT id (#PCDATA)>
-        <!ELEMENT name (#PCDATA)>
-        <!ELEMENT score (#PCDATA)>
-        <!ELEMENT grade (#PCDATA)>
-<!--?????????-->
-        ]>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE note [-->
+        <!--<!ELEMENT note (student*)>-->
+        <!--<!ELEMENT student (id,name,score,grade)>-->
+        <!--&lt;!&ndash;这句话就是只出现一次的意思了，啥也不加就是只出现一次&ndash;&gt;-->
+        <!--<!ELEMENT id (#PCDATA)>-->
+        <!--<!ELEMENT name (#PCDATA)>-->
+        <!--<!ELEMENT score (#PCDATA)>-->
+        <!--<!ELEMENT grade (#PCDATA)>-->
+<!--&lt;!&ndash;前面的感叹号别忘了&ndash;&gt;-->
+        <!--]>-->
 
 
 
@@ -16,19 +16,19 @@
 <note>
     <student>
         <id>12</id>
-        <name>???</name>
+        <name>宋昕冉</name>
         <score>3A</score>
         <grade>team x</grade>
     </student>
     <student>
         <id>12</id>
-        <name>???</name>
+        <name>王晓佳</name>
         <score>3B</score>
         <grade>team x</grade>
     </student>
     <student>
         <id>12</id>
-        <name>??</name>
+        <name>祁静</name>
         <score>3C</score>
         <grade>team x</grade>
     </student>
